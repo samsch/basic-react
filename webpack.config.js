@@ -1,11 +1,11 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
 const TARGET = process.env.npm_lifecycle_event;
-var BUILD_DIR = path.resolve(__dirname, 'public');
-var APP_DIR = path.resolve(__dirname, 'src/');
+const BUILD_DIR = path.resolve(__dirname, 'public');
+const APP_DIR = path.resolve(__dirname, 'src/');
 
-var config = {
+const config = {
     entry: APP_DIR + '/main.js',
     output: {
         path: BUILD_DIR,
