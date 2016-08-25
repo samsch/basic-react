@@ -1,6 +1,6 @@
 {
   "name": "basic-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Very basic React app.",
   "main": "index.html",
   "scripts": {
@@ -11,13 +11,13 @@
   "author": "Samuel Scheiderich",
   "license": "0BSD",
   "dependencies": {
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2"
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
   },
   "devDependencies": {
-    "babel-loader": "^6.2.3",
-    "babel-preset-es2015": "^6.5.0",
-    "babel-preset-react": "^6.5.0",
-    "webpack": "^1.12.14"
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.2"
   }
 }
