@@ -6,7 +6,7 @@ const BUILD_DIR = path.resolve(__dirname, 'public');
 const APP_DIR = path.resolve(__dirname, 'src/');
 
 const config = {
-    entry: APP_DIR + '/main.js',
+    entry: ['babel-polyfill', APP_DIR + '/main.js'],
     output: {
         path: BUILD_DIR,
         filename: 'bundle.js'

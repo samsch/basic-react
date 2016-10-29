@@ -3,7 +3,7 @@ React base app.
 
 To run, clone this project, and point a web server at public/.
 
-This is just the bare minimum, with a hello world.
+This is just the bare minimum, with a hello world. Babel is configured to compile using the "latest" preset, and babel-polyfill is included.
 
 To make changes, run `npm install`, then you can run `npm run dev` to set Webpack to watch for changes and build with sourcemaps, or `npm run build` to build with uglify (and no sourcemaps). The build script includes the proper configuration to put React into production mode, so code built with `npm run build` is production ready. React will not display warnings, and errors will not have the helpful messages like they do in dev mode. This is what you want for production.
 
