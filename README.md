@@ -7,7 +7,7 @@ This is just the bare minimum, with a hello world. Babel is configured to compil
 
 To make changes, run `npm install`, then you can run `npm run dev` to set Webpack to watch for changes and build with sourcemaps, or `npm run build` to build with uglify (and no sourcemaps). The build script includes the proper configuration to put React into production mode, so code built with `npm run build` is production ready. React will not display warnings, and errors will not have the helpful messages like they do in dev mode. This is what you want for production.
 
-You can read how to setup this project in my [Getting started with React guide](https://samuelscheiderich.com/2016/07/04/Getting-started-with-React/).
+Normally you can read how to setup this project in my [Getting started with React guide](https://samuelscheiderich.com/2016/07/04/Getting-started-with-React/). However, while this repo has been updated to Webpack Version 2, I haven't gotten to update the guide yet. Check back soon!
 
 ## Easy server
 If you don't have a server setup, you can use http-server from npm. Install globally with `$ npm install http-server -g`, then run `$ http-server public/` from the project root. You can then view the example app by navigating to `http://localhost:8080` in your browser.
